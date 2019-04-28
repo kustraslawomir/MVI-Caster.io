@@ -1,4 +1,5 @@
 package com.kanawish.sample.mvi.intent
 
-class Intent<S> {
+interface Intent<T> {
+    fun reduce(oldState: T): T
 }

@@ -1,4 +1,4 @@
-package com.kanawish.sample.mvi.model
+package com.kanawish.sample.mvi.model.state
 
 sealed class ProcessType {
 
